@@ -59,5 +59,6 @@ while True:
                 print(f"Bot: {message.content[0].text.value}\n")
     else:
         client.beta.assistants.delete(assistant.id)
+        break
 
 
